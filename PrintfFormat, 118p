@@ -7,8 +7,11 @@ func main() {
 	var b int = 456
 	var c int = 123456789
 
+	// 최소 너비 5
 	fmt.Printf("%5d, %5d\n", a, b)
+	// 최소 너비 5, 공란을 0으로
 	fmt.Printf("%05d, %05d\n", a, b)
+	// 최소 너비 5, 공란을 0으로, 왼쪽 정렬
 	fmt.Printf("%-5d, %-5d\n", a, b)
 
 	fmt.Printf("%5d, %5d\n", c, c)
