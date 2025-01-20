@@ -1,2 +1,2 @@
 # Tucker's-goLang
-Personal goLang study repository
+Personal goLang Study Repository
