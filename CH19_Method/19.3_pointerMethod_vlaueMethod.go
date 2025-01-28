@@ -18,7 +18,7 @@ func (a2 account) withdrawValue(amount int) {
 	a2.balance -= amount
 }
 
-// Return Original Value
+// Return Original Value type method
 func (a3 account) withdrawReturnValue(amount int) account {
 	a3.balance -= amount
 	return a3
